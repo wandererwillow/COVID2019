@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="<%= VUE_APP_description %>">
+    <meta name="keywords" content="<%= VUE_APP_keywords %>">
+    <meta name="author" content="<%= VUE_APP_author %>">
+    <title>
+        <%= VUE_APP_title %>
+    </title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icons/android-chrome-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="COVID in Siangaproe">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/apple-touch-icon-152x152.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/icons/favicon-32x32.png">
+
+    <script>
+        window.fetch || document.write('<script src="https://unpkg.com/whatwg-fetch@1.0.0/fetch.js"><\/script>');
+    </script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+	<script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
+	
+</head>
+
+<body>
+    <div class="container">
+        <!-- map -->
+        <sc-map></sc-map>
+
+        <!-- attribution -->
+        <span class="attribution">2019-COVID in Singaproe &bull;
+            <a href="https://www.moh.gov.sg/2019-ncov-wuhan" target="_blank">MOH</a>
+        </span>
+
+        <!-- toc -->
+        <sc-toc></sc-toc>
+
+    </div>
+
+</body>
+
+</html>

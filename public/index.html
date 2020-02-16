@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="<%= VUE_APP_description %>">
+    <meta name="keywords" content="<%= VUE_APP_keywords %>">
+    <meta name="author" content="<%= VUE_APP_author %>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>
+        <%= VUE_APP_title %>
+    </title>
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="img/icons/android-chrome-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="NOVEL CORONAVIRUS in Siangaproe">
+    <link rel="apple-touch-icon-precomposed" href="img/icons/apple-touch-icon-152x152.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="img/icons/msapplication-icon-144x144.png">
+    <meta name="msapplication-TileColor" content="#3372DF">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/icons/favicon-32x32.png">
+
+    <!-- Fonts and CSS -->
+    <style>
+        @page {
+            size: 8.5in 11in;
+            margin: 0.75in;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            color: #555;
+            font-family: "Helvetica Neue", "Calibri", "Liberation Sans", Roboto, sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            letter-spacing: 0.02em;
+        }
+
+        body {
+            background: #ccc;
+        }
+
+
+        header {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            box-shadow: 0 0 3px #666, 0 10px 6px -6px #666;
+        }
+
+        .container {
+            width: 0 auto;
+            margin: 0 auto;
+        }
+
+        .embed {
+            height: 7in;
+            box-shadow: 0 0 3px #666, 0 15px 12px -10px #666;
+            margin: 20px 0;
+        }
+
+        .embed iframe {
+            overflow: hidden;
+            border: none;
+        }
+
+
+        .print {
+            display: inline-block;
+            width: 17%;
+            padding: 0 20px;
+        }
+
+        .form {
+            display: inline-block;
+            width: 83%;
+            float: right;
+            padding: 0 20px;
+            border-left: 1px solid #ccc;
+        }
+
+        textarea,
+        input,
+        select {
+            width: 100%;
+            padding: 5px 10px;
+            font-size: 1em;
+            border: 1px solid #a2a2a2;
+        }
+
+        input,
+        select {
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-size: 0.9em;
+            color: #3f51b5;
+        }
+
+        /* Button */
+
+        .button {
+            background-color: #CBCDCB;
+            /* Green */
+            border: none;
+            color: #555;
+            padding: 7px 12px 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border-radius: 6px;
+            box-shadow: 1px 1px 3px #666;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        #mapembed {
+            font-size: 0.7em;
+        }
+
+
+        @media print {
+            header {
+                display: none;
+            }
+            .embed {
+                margin: 0;
+                box-shadow: none;
+                border: 1px solid black;
+                padding: 10px;
+            }
+        }
+		
+
+		.marker {
+			display: block;
+			border: none;
+			border-radius: 50%;
+			cursor: pointer;
+			padding: 0;
+		}
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+		<div class="embed">
+            <iframe src="" width="100%" height="100%" frameborder="0" scrolling="no" title="map"></iframe>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

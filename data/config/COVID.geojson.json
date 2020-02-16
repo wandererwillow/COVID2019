@@ -1,0 +1,1904 @@
+{
+"type": "FeatureCollection",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8097979,1.257802 ]
+    },
+    "properties": {
+    "date":"1/23/2020",
+    "age (bin)":"65 - 70",
+    "age":66,
+    "case_num":1,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/23/2020",
+    "gender":"male",
+    "group":"G",
+    "grouping factor":"family member",
+    "hospital 1st visited":"SGH",
+    "hospital confirmed":"SGH",
+    "note":"from Wuhan who arrived in Singapore with his family on 20 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/confirmed-imported-case-of-novel-coronavirus-infection-in-singapore-multi-ministry-taskforce-ramps-up-precautionary-measures",
+    "stayed at":"Shangri-La�s Rasa Sentosa Resort"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8585205,1.3076976 ]
+    },
+    "properties": {
+    "date":"1/24/2020",
+    "age (bin)":"50 - 55",
+    "age":53,
+    "case_num":2,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/24/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"Raffles Hospital",
+    "hospital confirmed":"TTSH",
+    "note":"from Wuhan who arrived in Singapore with her family on 21 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Orchard Road, Marina Bay Sands, Gardens by the Bay",
+    "source of info":"",
+    "stayed at":"J8 Hotel at 8 Townshend Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8097979,1.257802 ]
+    },
+    "properties": {
+    "date":"1/24/2020",
+    "age (bin)":"35 - 40",
+    "age":37,
+    "case_num":3,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/24/2020",
+    "gender":"male",
+    "group":"G",
+    "grouping factor":"family member",
+    "hospital 1st visited":"SGH",
+    "hospital confirmed":"SGH",
+    "note":"from Wuhan who arrived in Singapore with his family on 20 January, son of the first confirmed case",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Shangri-Las Rasa Sentosa Resort"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8199434,1.2522595 ]
+    },
+    "properties": {
+    "date":"1/25/2020",
+    "age (bin)":"35 - 40",
+    "age":36,
+    "case_num":4,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/25/2020",
+    "gender":"male",
+    "group":"F",
+    "grouping factor":"travel companion",
+    "hospital 1st visited":"SKH",
+    "hospital confirmed":"SKH",
+    "note":"from Wuhan who arrived in Singapore on 22 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Universal Studios, Vivocity",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/fourth-confirmed-imported-case-of-wuhan-coronavirus-infection-in-singapore",
+    "stayed at":"Village Hotel Sentosa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9008352,1.3082705 ]
+    },
+    "properties": {
+    "date":"1/27/2020",
+    "age (bin)":"55 - 60",
+    "age":56,
+    "case_num":5,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/27/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"TTSH",
+    "hospital confirmed":"TTSH",
+    "note":"from Wuhan who arrived in Singapore with her family on 18 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Ceylon Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9451835,1.3712132 ]
+    },
+    "properties": {
+    "date":"1/27/2020",
+    "age (bin)":"55 - 60",
+    "age":56,
+    "case_num":6,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/27/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"CGH",
+    "hospital confirmed":"CGH",
+    "note":"arrived in Singapore from Wuhan with his family on 19 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Pasir Ris Grove"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8594506,1.2839941 ]
+    },
+    "properties": {
+    "date":"1/27/2020",
+    "age (bin)":"35 - 40",
+    "age":35,
+    "case_num":7,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/27/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"Raffles Hospital",
+    "hospital confirmed":"NCID",
+    "note":"arrived in Singapore from Wuhan with his family on 23 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Marina Bay Sands"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8785181,1.3501507 ]
+    },
+    "properties": {
+    "date":"1/28/2020",
+    "age (bin)":"55 - 60",
+    "age":56,
+    "case_num":8,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/28/2020",
+    "gender":"female",
+    "group":"J",
+    "grouping factor":"linked to The Life Church and Missions Singapore",
+    "hospital 1st visited":"TTSH",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Lorong Lew Lian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8785181,1.3501507 ]
+    },
+    "properties": {
+    "date":"1/29/2020",
+    "age (bin)":"55 - 60",
+    "age":56,
+    "case_num":9,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/29/2020",
+    "gender":"male",
+    "group":"J",
+    "grouping factor":"linked to The Life Church and Missions Singapore",
+    "hospital 1st visited":"TTSH",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Lorong Lew Lian"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7782931,1.2705763 ]
+    },
+    "properties": {
+    "date":"1/29/2020",
+    "age (bin)":"55 - 60",
+    "age":56,
+    "case_num":10,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/29/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"arrived in Singapore from Wuhan on 20 January",
+    "occupation":"",
+    "place of work":"cargo vessel",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"cargo vessel"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8199434,1.2522595 ]
+    },
+    "properties": {
+    "date":"1/29/2020",
+    "age (bin)":"30 - 35",
+    "age":31,
+    "case_num":11,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/29/2020",
+    "gender":"female",
+    "group":"F",
+    "grouping factor":"travelling companion",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"from Wuhan who arrived in Singapore on 22 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Village Hotel Sentosa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8199434,1.2522595 ]
+    },
+    "properties": {
+    "date":"1/29/2020",
+    "age (bin)":"35 - 40",
+    "age":37,
+    "case_num":12,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/29/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"TTSH",
+    "hospital confirmed":"NCID",
+    "note":"from Wuhan who arrived in Singapore with her family on 22 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Orchard Road, Geylang",
+    "source of info":"",
+    "stayed at":"Village Hotel Sentosa"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8465131,1.285563 ]
+    },
+    "properties": {
+    "date":"1/30/2020",
+    "age (bin)":"> 70",
+    "age":73,
+    "case_num":13,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/30/2020",
+    "gender":"female",
+    "group":"E",
+    "grouping factor":"family member",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"arrived in Singapore from Wuhan on 21 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Changi Airport and Jewel",
+    "source of info":"",
+    "stayed at":"ParkRoyal Collection Pickering"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7371421,1.3376313 ]
+    },
+    "properties": {
+    "date":"1/30/2020",
+    "age (bin)":"30 - 35",
+    "age":31,
+    "case_num":14,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/30/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"After a trip to Hubei, he arrived in Singapore from Wuhan on 26 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jurong East Street 13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9892766,1.3563414 ]
+    },
+    "properties": {
+    "date":"1/31/2020",
+    "age (bin)":"45 - 50",
+    "age":47,
+    "case_num":15,
+    "citizenship":"SG citizen",
+    "date confirmed":"1/31/2020",
+    "gender":"female",
+    "group":"C",
+    "grouping factor":"evacuated from Wuhan on 30 January",
+    "hospital 1st visited":"SGH",
+    "hospital confirmed":"SGH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Changi Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8251267,1.2964709 ]
+    },
+    "properties": {
+    "date":"1/31/2020",
+    "age (bin)":"35 - 40",
+    "age":38,
+    "case_num":16,
+    "citizenship":"Chinese national",
+    "date confirmed":"1/31/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"SGH",
+    "hospital confirmed":"SGH",
+    "note":"arrived in Singapore from Wuhan on 22 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Nathan Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9892766,1.3563414 ]
+    },
+    "properties": {
+    "date":"1/31/2020",
+    "age (bin)":"45 - 50",
+    "age":47,
+    "case_num":17,
+    "citizenship":"SG citizen",
+    "date confirmed":"1/31/2020",
+    "gender":"female",
+    "group":"C",
+    "grouping factor":"evacuated from Wuhan on 30 January",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Changi Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"02/01/2020",
+    "age (bin)":"30 - 35",
+    "age":31,
+    "case_num":18,
+    "citizenship":"Chinese national",
+    "date confirmed":"02/01/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"arrived in Singapore from Wuhan on 22 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8198291,1.2834834 ]
+    },
+    "properties": {
+    "date":"02/03/2020",
+    "age (bin)":"25 - 30",
+    "age":28,
+    "case_num":19,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/03/2020",
+    "gender":"female",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"SGH",
+    "note":"",
+    "occupation":"",
+    "place of work":"Yong Thai Hang",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jalan Bukit Merah"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"02/04/2020",
+    "age (bin)":"45 - 50",
+    "age":48,
+    "case_num":20,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/04/2020",
+    "gender":"female",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Yong Thai Hang",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8198291,1.2834834 ]
+    },
+    "properties": {
+    "date":"02/04/2020",
+    "age (bin)":"40 - 45",
+    "age":44,
+    "case_num":21,
+    "citizenship":"Indonesian",
+    "date confirmed":"02/04/2020",
+    "gender":"female",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"Case 19�s foreign domestic worker",
+    "occupation":"domestic worker",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jalan Bukit Merah"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9892766,1.3563414 ]
+    },
+    "properties": {
+    "date":"02/03/2020",
+    "age (bin)":"40 - 45",
+    "age":41,
+    "case_num":22,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/03/2020",
+    "gender":"male",
+    "group":"C",
+    "grouping factor":"evacuated from Wuhan on 30 January",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"evacuated from Wuhan on 30 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Changi Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9892766,1.3563414 ]
+    },
+    "properties": {
+    "date":"02/03/2020",
+    "age (bin)":"15 - 20",
+    "age":17,
+    "case_num":23,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/03/2020",
+    "gender":"male",
+    "group":"C",
+    "grouping factor":"evacuated from Wuhan on 30 January",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"evacuated from Wuhan on 30 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Changi Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8832356,1.3792556 ]
+    },
+    "properties": {
+    "date":"02/04/2020",
+    "age (bin)":"30 - 35",
+    "age":32,
+    "case_num":24,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/04/2020",
+    "gender":"female",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"Hougang Polyclinic",
+    "hospital confirmed":"NCID",
+    "note":"brought tour groups to Yong Thai Hang at 24 Cavan Road",
+    "occupation":"tourist guide",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Buangkok Green"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8832356,1.3792556 ]
+    },
+    "properties": {
+    "date":"02/04/2020",
+    "age (bin)":"40 - 45",
+    "age":40,
+    "case_num":25,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/04/2020",
+    "gender":"male",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"Hougang Polyclinic",
+    "hospital confirmed":"NCID",
+    "note":"husband of Case 24",
+    "occupation":"",
+    "place of work":"Diamond Industries Jewellery Company at Harbour Drive",
+    "places visited":"Pasir Panjang Hawker Centre",
+    "source of info":"",
+    "stayed at":"Buangkok Green"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8465131,1.285563 ]
+    },
+    "properties": {
+    "date":"02/04/2020",
+    "age (bin)":"40 - 45",
+    "age":42,
+    "case_num":26,
+    "citizenship":"Chinese national",
+    "date confirmed":"02/04/2020",
+    "gender":"female",
+    "group":"E",
+    "grouping factor":"family member",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"arrived in Singapore from Wuhan on 21 January, daughter of Case 13",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"ParkRoyal Collection Pickering"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8198291,1.2834834 ]
+    },
+    "properties": {
+    "date":"02/05/2020",
+    "age (bin)":"45 - 50",
+    "age":45,
+    "case_num":27,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/05/2020",
+    "gender":"male",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"family members of Case 19, husband of Case 19",
+    "occupation":"private hire car driver",
+    "place of work":"",
+    "places visited":"Tiong Bahru Plaza, Tiong Bahru Market, Beo Crescent Market and Food Centre",
+    "source of info":"",
+    "stayed at":"Jalan Bukit Merah"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8198291,1.2834834 ]
+    },
+    "properties": {
+    "date":"02/05/2020",
+    "age (bin)":"0 - 5",
+    "age":0.5,
+    "case_num":28,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/05/2020",
+    "gender":"male",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"",
+    "hospital confirmed":"KKH",
+    "note":"family members of Case 19, child of Cases 19 and 27",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jalan Bukit Merah"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"02/05/2020",
+    "age (bin)":"40 - 45",
+    "age":41,
+    "case_num":29,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/05/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8375889,1.3518059 ]
+    },
+    "properties": {
+    "date":"02/06/2020",
+    "age (bin)":"25 - 30",
+    "age":27,
+    "case_num":30,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/06/2020",
+    "gender":"male",
+    "group":"B",
+    "grouping factor":"linked to the private business meeting held at Grand Hyatt Singapore from 20 to 22 January",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Grand Hyatt Singapore",
+    "places visited":"Far East Square (19 China Street), Junction 8 (9 Bishan Place)",
+    "source of info":"",
+    "stayed at":"Shunfu Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9517642,1.3554077 ]
+    },
+    "properties": {
+    "date":"02/06/2020",
+    "age (bin)":"50 - 55",
+    "age":53,
+    "case_num":31,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/06/2020",
+    "gender":"male",
+    "group":"J",
+    "grouping factor":"linked to The Life Church and Missions Singapore",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"CGH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "source of info":"",
+    "stayed at":"Tampines Street 24"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"02/06/2020",
+    "age (bin)":"40 - 45",
+    "age":42,
+    "case_num":32,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/06/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"Parkway East Hospital",
+    "note":"",
+    "occupation":"",
+    "place of work":"Victoria Junior College",
+    "places visited":"Changi Airport, Singapore Zoo",
+    "source of info":"",
+    "stayed at":"Elias Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"02/06/2020",
+    "age (bin)":"35 - 40",
+    "age":39,
+    "case_num":33,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/06/2020",
+    "gender":"female",
+    "group":"J",
+    "grouping factor":"linked to The Life Church and Missions Singapore",
+    "hospital 1st visited":"SKH",
+    "hospital confirmed":"SKH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8377408,1.3558345 ]
+    },
+    "properties": {
+    "date":"02/07/2020",
+    "age (bin)":"40 - 45",
+    "age":40,
+    "case_num":34,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/07/2020",
+    "gender":"female",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Yong Thai Hang",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Sin Ming Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8221858,1.2892425 ]
+    },
+    "properties": {
+    "date":"02/07/2020",
+    "age (bin)":"60 - 65",
+    "age":64,
+    "case_num":35,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/07/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"Bukit Merah Polyclinic",
+    "hospital confirmed":"SGH",
+    "note":"",
+    "occupation":"taxi driver",
+    "place of work":"",
+    "places visited":"Redhill Market, hawker centre at Bukit Merah",
+    "source of info":"",
+    "stayed at":"Henderson Crescent"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7490863,1.3591978 ]
+    },
+    "properties": {
+    "date":"02/07/2020",
+    "age (bin)":"35 - 40",
+    "age":38,
+    "case_num":36,
+    "citizenship":"SG PR",
+    "date confirmed":"02/07/2020",
+    "gender":"female",
+    "group":"B",
+    "grouping factor":"linked to the private business meeting held at Grand Hyatt Singapore from 20 to 22 January",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"KKH",
+    "note":"",
+    "occupation":"",
+    "place of work":"Grand Hyatt Singapore",
+    "places visited":"Ng Teng Fong General Hospital",
+    "source of info":"",
+    "stayed at":"Bukit Batok Street 31"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7337334,1.3470895 ]
+    },
+    "properties": {
+    "date":"02/07/2020",
+    "age (bin)":"50 - 55",
+    "age":53,
+    "case_num":37,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/07/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"private hire car driver",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jurong East Street 32"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7372528,1.3773316 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"50 - 55",
+    "age":52,
+    "case_num":38,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/08/2020",
+    "gender":"female",
+    "group":"J",
+    "grouping factor":"linked to The Life Church and Missions Singapore",
+    "hospital 1st visited":"Choa Chu Kang Polyclinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"The Life Church and Missions Singapore (146B Paya Lebar Road), Marina Bay Sands, Chinatown, Plaza Singapura",
+    "source of info":"",
+    "stayed at":"Choa Chu Kang Avenue 3"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7063423,1.3406244 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"50 - 55",
+    "age":51,
+    "case_num":39,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/08/2020",
+    "gender":"male",
+    "group":"B",
+    "grouping factor":"linked to the private business meeting held at Grand Hyatt Singapore from 20 to 22 January",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Jurong West Central"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9406413,1.3308354 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"35 - 40",
+    "age":36,
+    "case_num":40,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/08/2020",
+    "gender":"male",
+    "group":"A",
+    "grouping factor":"linked to the cluster associated with Yong Thai Hang",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Yong Thai Hang",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Bedok North Street"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8803923,1.3558104 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"> 70",
+    "age":71,
+    "case_num":41,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/08/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"TTSH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"5 Boundary Road, Braddell Heights Residents� Committee, 755 Upper Serangoon Road",
+    "source of info":"",
+    "stayed at":"Upper Serangoon Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9107993,1.3396769 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"35 - 40",
+    "age":39,
+    "case_num":42,
+    "citizenship":"Bangladesh",
+    "date confirmed":"02/08/2020",
+    "gender":"male",
+    "group":"H",
+    "grouping factor":"linked to the cluster at Seletar Aerospace Heights construction site",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"CGH",
+    "note":"",
+    "occupation":"",
+    "place of work":"Seletar Aerospace Heights construction site",
+    "places visited":"Mustafa Centre (145 Syed Alwi Road)",
+    "source of info":"",
+    "stayed at":"25 Kaki Bukit Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8793953,1.3944948 ]
+    },
+    "properties": {
+    "date":"02/08/2020",
+    "age (bin)":"50 - 55",
+    "age":54,
+    "case_num":43,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/08/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"SKH",
+    "note":"",
+    "occupation":"",
+    "place of work":"Resorts World Sentosa",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Fernvale Close"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8147455,1.4589459 ]
+    },
+    "properties": {
+    "date":"02/09/2020",
+    "age (bin)":"35 - 40",
+    "age":37,
+    "case_num":44,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/09/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"KTPH",
+    "note":"served Quarantine Orders on two individuals from Wuhan",
+    "occupation":"",
+    "place of work":"20 Jalan Afifi",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Sembawang Drive"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9892766,1.3563414 ]
+    },
+    "properties": {
+    "date":"02/10/2020",
+    "age (bin)":"0 - 5",
+    "age":2,
+    "case_num":45,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/10/2020",
+    "gender":"female",
+    "group":"C",
+    "grouping factor":"evacuated from Wuhan on 30 January",
+    "hospital 1st visited":"KKH",
+    "hospital confirmed":"KKH",
+    "note":"evacuated from Wuhan on 30 January",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Changi Airport"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7682666,1.4654268 ]
+    },
+    "properties": {
+    "date":"02/10/2020",
+    "age (bin)":"35 - 40",
+    "age":35,
+    "case_num":46,
+    "citizenship":"SG PR",
+    "date confirmed":"02/10/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"TTSH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"8 Sentosa Gateway",
+    "source of info":"",
+    "stayed at":"Johor Bahru"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8544339,1.3073817 ]
+    },
+    "properties": {
+    "date":"02/10/2020",
+    "age (bin)":"35 - 40",
+    "age":39,
+    "case_num":47,
+    "citizenship":"Bangladesh",
+    "date confirmed":"02/10/2020",
+    "gender":"male",
+    "group":"H",
+    "grouping factor":"linked to the cluster at Seletar Aerospace Heights construction site",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Seletar Aerospace Heights construction site",
+    "places visited":"10 Seletar Aerospace Heights",
+    "source of info":"",
+    "stayed at":"Veerasamy Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7609448,1.3430833 ]
+    },
+    "properties": {
+    "date":"02/11/2020",
+    "age (bin)":"30 - 35",
+    "age":34,
+    "case_num":48,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/11/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Plaza Singapura, Star Vista, Fusionopolis, Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "source of info":"",
+    "stayed at":"Bukit Batok Street 25"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7476142,1.3367124 ]
+    },
+    "properties": {
+    "date":"02/11/2020",
+    "age (bin)":"45 - 50",
+    "age":46,
+    "case_num":49,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/11/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NUH",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "source of info":"",
+    "stayed at":"Toh Guan Road"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8607963,1.353727 ]
+    },
+    "properties": {
+    "date":"02/12/2020",
+    "age (bin)":"60 - 65",
+    "age":62,
+    "case_num":50,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/12/2020",
+    "gender":"male",
+    "group":"I",
+    "grouping factor":"family member",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"a family member of Case 55",
+    "occupation":"",
+    "place of work":"DBS Asia Central at Marina Bay Financial Centre (12 Marina Boulevard)",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":"Mei Hwan Drive"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8530447,1.3506856 ]
+    },
+    "properties": {
+    "date":"02/12/2020",
+    "age (bin)":"45 - 50",
+    "age":48,
+    "case_num":51,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/12/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"GP clinic",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Grace Assembly of God (Tanglin) (355 Tanglin Road)",
+    "places visited":"Grace Assembly of God (Tanglin), Grace Assembly of God (Bukit Batok)",
+    "source of info":"",
+    "stayed at":"Bishan Street 13"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8525877,1.3052233 ]
+    },
+    "properties": {
+    "date":"02/12/2020",
+    "age (bin)":"35 - 40",
+    "age":37,
+    "case_num":52,
+    "citizenship":"Bangladesh",
+    "date confirmed":"02/12/2020",
+    "gender":"male",
+    "group":"H",
+    "grouping factor":"linked to the cluster at Seletar Aerospace Heights construction site",
+    "hospital 1st visited":"TTSH",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"Seletar Aerospace Heights construction site",
+    "places visited":"10 Seletar Aerospace Heights",
+    "source of info":"",
+    "stayed at":"Campbell Lane"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7624271,1.3572653 ]
+    },
+    "properties": {
+    "date":"02/12/2020",
+    "age (bin)":"50 - 55",
+    "age":54,
+    "case_num":53,
+    "citizenship":"SG citizen",
+    "date confirmed":"02/12/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"NCID",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"NUS",
+    "places visited":"NUS",
+    "source of info":"",
+    "stayed at":"Hillview Avenue"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"50 - 55",
+    "age":54,
+    "case_num":54,
+    "citizenship":"SG citizen",
+    "date confirmed":"2/13/2020",
+    "gender":"female",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"25 - 30",
+    "age":26,
+    "case_num":57,
+    "citizenship":"SG citizen",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"55 - 60",
+    "age":55,
+    "case_num":58,
+    "citizenship":"SG citizen",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"D",
+    "grouping factor":"linked to the cluster at Grace Assembly of God",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"30 - 35",
+    "age":30,
+    "case_num":55,
+    "citizenship":"SG citizen",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"I",
+    "grouping factor":"family member",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"a family member of Case 50",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"30 - 35",
+    "age":30,
+    "case_num":56,
+    "citizenship":"Bangladesh",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"H",
+    "grouping factor":"linked to the cluster at Seletar Aerospace Heights construction site",
+    "hospital 1st visited":"",
+    "hospital confirmed":"NCID",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"",
+    "age":61,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"Wilkinson Road",
+    "hospital 1st visited":"National Centre for Infectious Diseases",
+    "hospital confirmed":"",
+    "note":"Farrer Park Hospital,Mount Elizabeth Hospital. Mountbatten, Marine Parade",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"",
+    "age":51,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/13/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"Ang Mo Kio Avenue 3",
+    "hospital 1st visited":"National Centre for Infectious Diseases",
+    "hospital confirmed":"",
+    "note":"Tanglin, Ang Mo Kio",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"",
+    "age":57,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/13/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"Jurong West Street 64",
+    "hospital 1st visited":"National University Hospital",
+    "hospital confirmed":"",
+    "note":"Tanglin, Bukit Batok, Ng Teng Fong General Hospital, Pioneer Polyclinic, Boon Lay, Bedok (Work Location)",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/13/2020",
+    "age (bin)":"",
+    "age":44,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/13/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"Tanjong Pagar Road",
+    "hospital 1st visited":"Singapore General Hospital",
+    "hospital confirmed":"",
+    "note":"Tanglin, Bukit Batok, Tanjong Pagar",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/14/2020",
+    "age (bin)":"",
+    "age":54,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/14/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"Tanglin, Bukit Batok",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/14/2020",
+    "age (bin)":"",
+    "age":50,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/14/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/14/2020",
+    "age (bin)":"",
+    "age":61,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/14/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"Mei Hwan Drive",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"Lorong Chuan, Bishan(living location)",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/14/2020",
+    "age (bin)":"",
+    "age":28,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/14/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"Tanglin, Bukit Batok",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/14/2020",
+    "age (bin)":"",
+    "age":56,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/14/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"Jurong West Street 64",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"Tanglin, Bukit Batok, Boon Lay",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/15/2020",
+    "age (bin)":"",
+    "age":54,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/15/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"unsure",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/15/2020",
+    "age (bin)":"",
+    "age":50,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/15/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"unsure",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/15/2020",
+    "age (bin)":"",
+    "age":61,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/15/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"unsure",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/15/2020",
+    "age (bin)":"",
+    "age":28,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/15/2020",
+    "gender":"male",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"unsure",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"2/15/2020",
+    "age (bin)":"",
+    "age":56,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"2/15/2020",
+    "gender":"female",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"unsure",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  { }
+    },
+    "properties": {
+    "date":"",
+    "age (bin)":"",
+    "age":null,
+    "case_num":null,
+    "citizenship":"",
+    "date confirmed":"",
+    "gender":"",
+    "group":"",
+    "grouping factor":"",
+    "hospital 1st visited":"",
+    "hospital confirmed":"",
+    "note":"",
+    "occupation":"",
+    "place of work":"",
+    "places visited":"",
+    "source of info":"",
+    "stayed at":""
+    }
+  }
+]
+}

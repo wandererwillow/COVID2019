@@ -1,0 +1,10 @@
+{
+  "zoomEmbed": 9,
+  "zoom": 9,
+  "centerEmbed": [103.835907, 1.306487],
+  "center": [103.835907, 1.306487],
+  "maxBounds": [[103.49, 1.1], [104.15,1.56]],
+  "minZoom": 8,
+  "neighborhoodsSelectedBefore": "water_label",
+  "neighborhoodsBefore": "building"
+}
