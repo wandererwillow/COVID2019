@@ -1293,7 +1293,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 103.8544339,1.3073817 ]
+       "coordinates":  [ 103.8637416,1.4228885 ]
     },
     "properties": {
     "grouping factor":"linked to Seletar Aerospace Heights construction site",
@@ -1321,7 +1321,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 103.8637416,1.4228885 ]
+       "coordinates":  [ 103.8793953,1.3944948 ]
     },
     "properties": {
     "grouping factor":"linked to Grace Assembly of God",
