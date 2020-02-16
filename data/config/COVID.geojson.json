@@ -481,7 +481,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 103.8798925,1.2528123 ]
+       "coordinates":  [ 103.7477884, 1.3946145 ]
     },
     "properties": {
     "grouping factor":"travel companion",
@@ -789,7 +789,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 103.8798925,1.2528123 ]
+       "coordinates":  [ 103.7477884, 1.3946145 ]
     },
     "properties": {
     "grouping factor":"(source of infection unknown)",
@@ -901,7 +901,7 @@
     "type": "Feature",
     "geometry": {
        "type": "Point",
-       "coordinates":  [ 103.8798925,1.2528123 ]
+       "coordinates":  [ 103.7477884, 1.3946145 ]
     },
     "properties": {
     "grouping factor":"linked to The Life Church and Missions Singapore (146B Paya Lebar Road)",
