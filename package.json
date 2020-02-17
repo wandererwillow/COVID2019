@@ -6,7 +6,6 @@
   "scripts": {
     "start": "vue-cli-service serve --port 3000 --open",
     "build": "vue-cli-service build --modern"
-    
   },
   "author": "willowmoon",
   "license": "MIT",
