@@ -2268,6 +2268,90 @@
     "source of info":"https://www.moh.gov.sg/news-highlights/details/five-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
     "places visited":""
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7236305,1.3466526 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":82,
+    "age":57,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 41",
+    "date arriving":"",
+    "date with symptoms":"02/09/2020",
+    "date 1st vist to hospital":"02/10/2020",
+    "hospital 1st visited":"Jurong Polyclinic",
+    "date":"2/18/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/five-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":83,
+    "age":54,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/19/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/five-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"Malaysia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Grace Assembly of God",
+    "group":"D",
+    "case_num":84,
+    "age":35,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/19/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 66",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/five-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
   }
 ]
 }
