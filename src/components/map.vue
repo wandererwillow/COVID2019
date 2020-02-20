@@ -37,6 +37,46 @@ export default {
       var nav = new mapboxgl.NavigationControl();
       map.addControl(nav, 'top-right');
 
+	  // Pitch control
+    class PitchControl {
+      onAdd(map) {
+        this._map = map;
+        const container = document.createElement('div');
+        container.className = 'mapboxgl-ctrl mapboxgl-ctrl-group';
+        container.innerHTML = '<button class="mapboxgl-ctrl-icon mapboxgl-ctrl-custom-pitch" type="button"><span>3D</span></button>';
+        container.onclick = function(){
+          const pitch = map.getPitch();
+          const zoom = map.getZoom();
+          let nextPitch = 0;
+          if (pitch <= 5) nextPitch = 30;
+          if (zoom < 10 && pitch < 5) {
+            map.flyTo({
+              pitch: nextPitch,
+              //zoom: 8,
+            });
+          } else {
+            map.easeTo({
+              pitch: nextPitch
+            });
+          }
+        };
+        map.on('pitchend', this.onPitch);
+        this._container = container;
+        return this._container;
+      }
+      onPitch = () => {
+        const pitch = this._map.getPitch();
+        const is3DMode = pitch > 5;
+        this._container.classList.toggle('active', is3DMode);
+      }
+      onRemove() {
+        this._container.parentNode.removeChild(this._container);
+        this._map.off('pitchend', this.onPitch);
+        this._map = undefined;
+      }
+    };
+    map.addControl(new PitchControl(), 'top-right');
+	  
       // disable map rotation using right click + drag and touch
       if (_this.privateState.pitch === false) {
         //map.dragRotate.disable();

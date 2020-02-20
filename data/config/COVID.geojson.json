@@ -2352,6 +2352,38 @@
     "source of info":"https://www.moh.gov.sg/news-highlights/details/five-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
     "places visited":""
     }
+  },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":85,
+    "age":36,
+    "gender":"male",
+    "citizenship":"CN",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/20/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-one-new-case-of-covid-19-infection-confirmed?0",
+    "places visited":"",
+    "FIELD22":"",
+    "FIELD23":"",
+    "FIELD24":"",
+    "FIELD25":""
+    }
   }
 ]
 }

@@ -1,16 +1,16 @@
 <template>
     <div id="toc" v-if="sharedState.metric.config" class="top left">
         <div>
-            <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing">
+            <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing"> -->
             <div class="tocposition">
-                <a href="javascript:void(0)" title="Move Table of Contents" v-on:click="position()"><svg class="icon"><use xlink:href="#icon-zoom_out_map"></use></svg></a>
+                <a href="javascript:void(0)" title="Move Table of Contents" v-on:click="position()"> X <svg class="icon"><use xlink:href="#icon-zoom_out_map"></use></svg></a>				
             </div>
             <h1 class="title">COVID 2019 in Singaproe</h1>
             <h2 class="description">
-                 <span class="metrictype">DORSCON Level : Orange</span>
+                 <span class="metrictype">DORSCON Level : <span style="color:orange;font-weight:bold">Orange</span></span>
             </h2>
 			<h2 class="description">
-				 <span class="metrictype">Confirmed Case TOTAL: {{ sharedState.metric.config.length }}</span>
+				 <span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold">{{ sharedState.metric.config.length }}</span></span>
             </h2>
 			<div class="small">
 				<line-chart :chart-data="datacollection"/>
@@ -95,7 +95,7 @@ import virousdata from '../../data/config/COVID.json';
 export default {
     name: 'sc-toc',
 	components: {
-      LineChart
+      LineChart,
     },
     data () {
       return {
