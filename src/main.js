@@ -20,6 +20,7 @@ import colors from './js/breaks';
 import Vue from 'vue';
 import ToC from './components/toc.vue';
 import MapGL from './components/map.vue';
+
 //import mapStyle from './styles/positron-singapore.json';
 
 // Get URL arguments if passed
@@ -118,6 +119,7 @@ fetchData(appState, metricId);
 ToC.data = function() {
   return {
     sharedState: appState,
+	accordions : null,
     privateState: {
       metaDesc: null,
       selected: null,

@@ -2416,20 +2416,20 @@
        "coordinates":  [ 103.8798925,1.2528123 ]
     },
     "properties": {
-    "grouping factor":"(source of infection unknown)",
-    "group":"Z",
+    "grouping factor":"evacuated from Wuhan on 9 Feb",
+    "group":"O",
     "case_num":87,
     "age":32,
     "gender":"male",
     "citizenship":"citizen",
     "stayed at":"(location unknown)",
-    "date arriving":"02/09/2020",
+    "date arriving":"2/9/2020",
     "date with symptoms":"",
     "date 1st vist to hospital":"",
     "hospital 1st visited":"",
     "date":"2/21/2020",
     "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
-    "date discharged":"",
+    "date discharged":"2/24/2020",
     "occupation":"",
     "place of work":"",
     "note":"evacuated from Wuhan on 9 February",
@@ -2477,11 +2477,11 @@
     "case_num":89,
     "age":41,
     "gender":"male",
-    "citizenship":"PR",
+    "citizenship":"Filipino",
     "stayed at":"Serangoon Avenue 3",
     "date arriving":"",
-    "date with symptoms":"02/03/2020",
-    "date 1st vist to hospital":"02/03/2020",
+    "date with symptoms":"2/3/2020",
+    "date 1st vist to hospital":"2/3/2020",
     "hospital 1st visited":"GP clinic",
     "date":"2/22/2020",
     "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
@@ -2490,7 +2490,371 @@
     "place of work":"Affinity Equity Partners (S) Pte Ltd (8 Temasek Boulevard)",
     "note":"",
     "source of info":"https://www.moh.gov.sg/news-highlights/details/two-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
-    "places visited":"Bishan Community Club (51 Bishan Street 13)"
+    "places visited":"Bishan Community Club (51 Bishan Street 13), GYMMBOXX member"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8506162,1.3454223 ]
+    },
+    "properties": {
+    "grouping factor":"linked to The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "group":"J",
+    "case_num":90,
+    "age":75,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Bishan Street 12",
+    "date arriving":"",
+    "date with symptoms":"2/9/2020",
+    "date 1st vist to hospital":"2/9/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/23/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/two-more-cases-discharged-one-new-case-of-covid-19-infection-confirmed",
+    "places visited":"Tan Tock Seng Hospital"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.9060858,1.3886692 ]
+    },
+    "properties": {
+    "grouping factor":"linked to The Life Church and Missions Singapore (146B Paya Lebar Road)",
+    "group":"J",
+    "case_num":91,
+    "age":58,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Rivervale Drive",
+    "date arriving":"1/19/2020",
+    "date with symptoms":"1/23/2020",
+    "date 1st vist to hospital":"2/1/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/22/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"2/25/2020",
+    "occupation":"",
+    "place of work":"",
+    "note":"spause of case 83, attended The Life Church and Missions Singapore with case 8 and 9 on Jan 19, attended CNY gathering at Mei Hwan Drive with case 66 on Jan 25.",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/links-established-between-church-clusters-and-wuhan-travellers",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8679691,1.349327 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":92,
+    "age":47,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Serangoon Avenue 3",
+    "date arriving":"",
+    "date with symptoms":"2/17/2020",
+    "date 1st vist to hospital":"2/21/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/26/2020",
+    "hospital confirmed":"Sengkang General Hostiptal",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7490863,1.3591978 ]
+    },
+    "properties": {
+    "grouping factor":"related",
+    "group":"P",
+    "case_num":93,
+    "age":38,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Bukit Batok Street 31",
+    "date arriving":"",
+    "date with symptoms":"2/17/2020",
+    "date 1st vist to hospital":"2/18/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/26/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 95",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7714796,1.3414663 ]
+    },
+    "properties": {
+    "grouping factor":"related",
+    "group":"Q",
+    "case_num":94,
+    "age":64,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Jalan Jurong Kechil",
+    "date arriving":"",
+    "date with symptoms":"2/11/2020",
+    "date 1st vist to hospital":"2/17/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/26/2020",
+    "hospital confirmed":"Singapore General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 96",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"related",
+    "group":"P",
+    "case_num":95,
+    "age":44,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/27/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 93",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"related",
+    "group":"Q",
+    "case_num":96,
+    "age":12,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/27/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"tudent at Raffles Institution. linked to Case 94",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-three-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7471591,1.3919297 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":97,
+    "age":44,
+    "gender":"female",
+    "citizenship":"PR",
+    "stayed at":"Choa Chu Kang North 5",
+    "date arriving":"",
+    "date with symptoms":"2/20/2020",
+    "date 1st vist to hospital":"2/20/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/27/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"Wizlearn Technologies Pte Ltd",
+    "note":"a close contact of Case 93",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"Agency for Integrated Care (5 Maxwell Road)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6985454,1.3385574 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":98,
+    "age":24,
+    "gender":"male",
+    "citizenship":"PR",
+    "stayed at":"Jurong West Street 61",
+    "date arriving":"",
+    "date with symptoms":"2/27/2020",
+    "date 1st vist to hospital":"2/27/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/28/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Cases 93, 95 and 97",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6934442,1.3471853 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":99,
+    "age":27,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 81",
+    "date arriving":"",
+    "date with symptoms":"2/21/2020",
+    "date 1st vist to hospital":"2/25/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/28/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a close contact of case 93",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"[Feb 28] Pioneer Polyclinic"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7951241,1.3090794 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":100,
+    "age":20,
+    "gender":"male",
+    "citizenship":"Malaysian",
+    "stayed at":"Holland Avenue",
+    "date arriving":"",
+    "date with symptoms":"2/27/2020",
+    "date 1st vist to hospital":"2/28/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"2/28/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a close contact of case 93",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":101,
+    "age":61,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/29/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 93",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":102,
+    "age":41,
+    "gender":"female",
+    "citizenship":"Filipino",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"2/29/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"is Case 101?s foreign domestic worker",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/three-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
     }
   }
 ]

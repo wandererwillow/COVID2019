@@ -49,15 +49,29 @@ export default {
           const zoom = map.getZoom();
           let nextPitch = 0;
           if (pitch <= 5) nextPitch = 30;
-          if (zoom < 10 && pitch < 5) {
+          if (pitch < 5) {
             map.flyTo({
               pitch: nextPitch,
               //zoom: 8,
             });
+			map.setLayoutProperty('neighborhoods', 'visibility', 'none');
+			map.moveLayer('neighborhoods-fill-extrude');
+			map.setPaintProperty(
+			'neighborhoods-fill-extrude',
+			'fill-extrusion-height',
+			_this.getHeight()
+			);
           } else {
             map.easeTo({
               pitch: nextPitch
             });
+			map.setLayoutProperty('neighborhoods', 'visibility', 'visible');
+			map.moveLayer('neighborhoods-fill-extrude', 'building');
+			map.setPaintProperty(
+			'neighborhoods-fill-extrude',
+			'fill-extrusion-height',
+			0
+			);
           }
         };
         map.on('pitchend', this.onPitch);
@@ -125,6 +139,30 @@ export default {
         popup.remove();
       });
 
+	  map.on('mousemove', 'markers', function (e) {
+        map.getCanvas().style.cursor = 'pointer';
+        let feature = e.features[0];
+        
+        popup
+          .setLngLat(map.unproject(e.point))
+          .setHTML(
+            `<div style="text-align: center; margin: 0; padding: 0; font-weight: bold">
+			Case Num: ${feature.properties.case_num}</div>			
+			<div style="text-align: left; margin: 0; padding: 0;"> Age: ${feature.properties.age}</div>
+			<div style="text-align: left; margin: 0; padding: 0;"> Gender: ${feature.properties.gender}</div>
+			<div style="text-align: left; margin: 0; padding: 0;"> Date Confirmed: ${feature.properties.date}</div>
+			<div style="text-align: left; margin: 0; padding: 0;"> Date Discharged: ${feature.properties["date discharged"]}</div>
+			<div style="text-align: left; margin: 0; padding: 0;"> Hospital Confirmed: ${feature.properties["hospital confirmed"]}</div>
+			<div style="text-align: left; margin: 0; padding: 0;"> Stay Location: ${feature.properties["stayed at"]}</div>`
+          )
+          .addTo(map);
+      });
+
+      map.on('mouseleave', 'markers', function () {
+        map.getCanvas().style.cursor = '';
+        popup.remove();
+      });
+	  
       map.on('rotate', function (e) {
         if (map.getPitch() >= 20) {
           _this.toggle3D();
@@ -206,12 +244,11 @@ export default {
 		  
         } */
 		paint: {
-		'circle-radius': 10,
+		'circle-radius': 8,
 		'circle-color': '#ff0000'
 		}
       });
 	  
-
 	  	map.setPitch(30)
 		map.setLayoutProperty('neighborhoods', 'visibility', 'none');
         map.moveLayer('neighborhoods-fill-extrude');

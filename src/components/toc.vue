@@ -1,75 +1,107 @@
 <template>
-    <div id="toc" v-if="sharedState.metric.config" class="top left">
-        <div>
-            <!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing"> -->
-            <div class="tocposition">
-                <a href="javascript:void(0)" title="Move Table of Contents" v-on:click="position()"> X <svg class="icon"><use xlink:href="#icon-zoom_out_map"></use></svg></a>				
-            </div>
-            <h1 class="title">COVID 2019 in Singaproe</h1>
-            <h2 class="description">
-                 <span class="metrictype">DORSCON Level : <span style="color:orange;font-weight:bold">Orange</span></span>
-            </h2>
-			<h2 class="description">
-				 <span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold">{{ sharedState.metric.config.length }}</span></span>
-            </h2>
-			<div class="small">
-				<line-chart :chart-data="datacollection"/>
-				<!-- <button @click="fillData()">Randomize</button> -->
+    <div id="toc" v-if="sharedState.metric.config" class="top left">	
+			<div>
+				<BaseAccordian>
+					<template v-slot:title>1. COVID 2019 in Singaproe</template>				
+					<template v-slot:content>
+						<div>
+							<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing"> -->
+							<!-- <div class="tocposition">
+								<a href="javascript:void(0)" title="Move Table of Contents" v-on:click="position()"> X <svg class="icon"><use xlink:href="#icon-zoom_out_map"></use></svg></a>				
+							</div> -->
+							<h2 class="description">
+								<span class="metrictype">DORSCON Level : <span style="color:orange;font-weight:bold">Orange</span></span>
+							</h2>
+							<h2 class="description">
+								<span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold">{{ sharedState.metric.config.length }}</span></span>
+							</h2>
+							<div class="small">
+								<line-chart :chart-data="totaldatacollection"/>
+								<!-- <button @click="fillData()">Randomize</button> -->
+							</div>
+							<!-- <div class="metricboxes">
+								<div class="metricbox" v-if="sharedState.metric.config.length > 0">
+									<span class="metricvalue">{{ privateState.metric.config.length }}</span>
+									<span class="metricvalue">{{ privateState.metric.config.date }}</span> 
+									<span v-if="sharedState.metric.config.length > 0" class="metriclabel">{{ sharedState.metric.config.date }}</span> 
+									<span v-if="sharedState.selected.length > 0" class="metric-raw">
+										<span>or</span>
+										<span class="metricvalue metricraw">{{privateState.metric.config.date}}</span>
+										<span v-html="sharedState.metric.config.date.toLowerCase()" class="metriclabel"></span>
+									</span> 
+								</div> -->
+								<!-- <div class="metricbox">
+									<span class="metrictype">Singaproe Resident Population, 2016</span>
+									<span class="metricvalue">{{ privateState.area }}</span>
+									<span v-if="sharedState.metric.config.label" class="metriclabel">{{ sharedState.metric.config.label.toLowerCase() }}</span>
+									<span v-if="sharedState.metric.config.raw_label" class="metric-raw">
+										<span>or</span>
+										<span class="metricvalue metricraw">{{privateState.areaRaw}}</span>
+										<span v-html="sharedState.metric.config.raw_label.toLowerCase()" class="metriclabel"></span>
+									</span> 
+								</div> -->
+						</div>
+					</template>
+				</BaseAccordian>
 			</div>
-            <!-- <div class="metricboxes">
-                <div class="metricbox" v-if="sharedState.metric.config.length > 0">
-                    <span class="metricvalue">{{ privateState.metric.config.length }}</span>
-                    <span class="metricvalue">{{ privateState.metric.config.date }}</span> 
-                    <span v-if="sharedState.metric.config.length > 0" class="metriclabel">{{ sharedState.metric.config.date }}</span> 
-                    <span v-if="sharedState.selected.length > 0" class="metric-raw">
-                        <span>or</span>
-                        <span class="metricvalue metricraw">{{privateState.metric.config.date}}</span>
-                        <span v-html="sharedState.metric.config.date.toLowerCase()" class="metriclabel"></span>
-                    </span> 
-                </div> -->
-			<h1 class="title">Singaproe Resident Population, 2016</h1>
-                <!-- <div class="metricbox">
-                    <span class="metrictype">Singaproe Resident Population, 2016</span>
-                    <span class="metricvalue">{{ privateState.area }}</span>
-                    <span v-if="sharedState.metric.config.label" class="metriclabel">{{ sharedState.metric.config.label.toLowerCase() }}</span>
-                    <span v-if="sharedState.metric.config.raw_label" class="metric-raw">
-                        <span>or</span>
-                        <span class="metricvalue metricraw">{{privateState.areaRaw}}</span>
-                        <span v-html="sharedState.metric.config.raw_label.toLowerCase()" class="metriclabel"></span>
-                    </span> 
-                </div> -->
-            </div>
-            <div class="legend">
-                <svg  v-if="sharedState.breaks" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 248.4 39.2" id="maplegend" role="img" aria-labelledby="svgTitle">
-                    <title id="svgTitle">Choropleth legend</title>
-                    <g transform="translate(20.714293 -851.75475)">
-                        <rect y="865.9" x="-20.7" height="25" width="50" v-bind:style="{fill: this.sharedState.colors[0]}" v-on:click="selectBreak(0)" v-on:mouseover="highlight(0)" v-on:mouseout="highlight(-1)"  />
-                        <rect width="50" height="25" x="28.9" y="865.9" v-bind:style="{fill: this.sharedState.colors[1]}" v-on:click="selectBreak(1)" v-on:mouseover="highlight(1)" v-on:mouseout="highlight(-1)" />
-                        <rect width="50" height="25" x="78.5" y="865.9" v-bind:style="{fill: this.sharedState.colors[2]}" v-on:click="selectBreak(2)" v-on:mouseover="highlight(2)" v-on:mouseout="highlight(-1)" />
-                        <rect y="865.9" x="128.1" height="25" width="50" v-bind:style="{fill: this.sharedState.colors[3]}" v-on:click="selectBreak(3)" v-on:mouseover="highlight(3)" v-on:mouseout="highlight(-1)" />
-                        <rect width="50" height="25" x="177.6" y="865.9" v-bind:style="{fill: this.sharedState.colors[4]}" v-on:click="selectBreak(4)" v-on:mouseover="highlight(4)" v-on:mouseout="highlight(-1)" />
-                        <text x="-19.5" y="864.3" class="legendText">
-                          <tspan x="-19.5" y="864.3">{{ abbrNumber(sharedState.breaks[0]) }}</tspan>
-                        </text>
-                        <text y="864.4" x="28.6" class="legendText">
-                          <tspan y="864.4" x="28.6">{{ abbrNumber(sharedState.breaks[1]) }}</tspan>
-                        </text>
-                        <text x="78.4" y="864.4" class="legendText">
-                          <tspan x="78.4" y="864.4">{{ abbrNumber(sharedState.breaks[2]) }}</tspan>
-                        </text>
-                        <text y="864.4" x="128" class="legendText">
-                          <tspan y="864.4" x="128">{{ abbrNumber(sharedState.breaks[3]) }}</tspan>
-                        </text>
-                        <text x="177.8" y="864.4" class="legendText">
-                          <tspan x="177.8" y="864.4">{{ abbrNumber(sharedState.breaks[4]) }}</tspan>
-                        </text>
-                        <text y="864.3" x="225.8" class="legendText">
-                          <tspan y="864.3" x="225.8">{{ abbrNumber(sharedState.breaks[5]) }}</tspan>
-                        </text>
-                    </g>
-                </svg>
-            </div>
-        </div>
+			<div>
+				<BaseAccordian>
+					<template v-slot:title>2. Epidemiology - Age Group</template>				
+					<template v-slot:content>
+							<div>
+							<div class="small">
+								<bar-chart :chart-data="agedatacollection"/>
+							</div>
+						</div>
+					</template>
+				</BaseAccordian>
+			</div>
+			<div>
+				<BaseAccordian>
+					<template v-slot:title>3. Epidemiology - Gender Group</template>				
+					<template v-slot:content>
+							<div>
+							<div class="small">
+								<line-chart :chart-data="genderdatacollection"/>
+							</div>						
+						</div>
+					</template>
+				</BaseAccordian>
+			</div>				
+			<div class="legend">
+				<h2 class="description">
+					<span class="metrictype">Singaproe Resident Population, 2016</span>
+				</h2>
+			
+				<svg  v-if="sharedState.breaks" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 248.4 39.2" id="maplegend" role="img" aria-labelledby="svgTitle">
+					<title id="svgTitle">Choropleth legend</title>
+					<g transform="translate(20.714293 -851.75475)">
+						<rect y="865.9" x="-20.7" height="25" width="50" v-bind:style="{fill: this.sharedState.colors[0]}" v-on:click="selectBreak(0)" v-on:mouseover="highlight(0)" v-on:mouseout="highlight(-1)"  />
+						<rect width="50" height="25" x="28.9" y="865.9" v-bind:style="{fill: this.sharedState.colors[1]}" v-on:click="selectBreak(1)" v-on:mouseover="highlight(1)" v-on:mouseout="highlight(-1)" />
+						<rect width="50" height="25" x="78.5" y="865.9" v-bind:style="{fill: this.sharedState.colors[2]}" v-on:click="selectBreak(2)" v-on:mouseover="highlight(2)" v-on:mouseout="highlight(-1)" />
+						<rect y="865.9" x="128.1" height="25" width="50" v-bind:style="{fill: this.sharedState.colors[3]}" v-on:click="selectBreak(3)" v-on:mouseover="highlight(3)" v-on:mouseout="highlight(-1)" />
+						<rect width="50" height="25" x="177.6" y="865.9" v-bind:style="{fill: this.sharedState.colors[4]}" v-on:click="selectBreak(4)" v-on:mouseover="highlight(4)" v-on:mouseout="highlight(-1)" />
+						<text x="-19.5" y="864.3" class="legendText">
+						<tspan x="-19.5" y="864.3">{{ abbrNumber(sharedState.breaks[0]) }}</tspan>
+						</text>
+						<text y="864.4" x="28.6" class="legendText">
+						<tspan y="864.4" x="28.6">{{ abbrNumber(sharedState.breaks[1]) }}</tspan>
+						</text>
+						<text x="78.4" y="864.4" class="legendText">
+						<tspan x="78.4" y="864.4">{{ abbrNumber(sharedState.breaks[2]) }}</tspan>
+						</text>
+						<text y="864.4" x="128" class="legendText">
+						<tspan y="864.4" x="128">{{ abbrNumber(sharedState.breaks[3]) }}</tspan>
+						</text>
+						<text x="177.8" y="864.4" class="legendText">
+						<tspan x="177.8" y="864.4">{{ abbrNumber(sharedState.breaks[4]) }}</tspan>
+						</text>
+						<text y="864.3" x="225.8" class="legendText">
+						<tspan y="864.3" x="225.8">{{ abbrNumber(sharedState.breaks[5]) }}</tspan>
+						</text>
+					</g>
+				</svg>
+			</div>	
     </div>
 </template>
 
@@ -89,17 +121,24 @@ import {
     sum
 } from '../js/metric_calculations';
 
-import LineChart from '../js/LineChart.js'
+import LineChart from '../js/LineChart.js';
+import BarChart from '../js/BarChart.js';
 import virousdata from '../../data/config/COVID.json';
+import BaseAccordian from "@/components/BaseAccordion";
 
 export default {
     name: 'sc-toc',
 	components: {
       LineChart,
+	  BarChart,
+	  BaseAccordian,
     },
     data () {
       return {
-        datacollection: null
+        totaldatacollection: null,
+		agedatacollection: null,
+		genderdatacollection: null,
+		accordions: null,
       }
     },
 	mounted () {
@@ -219,15 +258,94 @@ export default {
 		};
 
 		var mm = groupBy(viousdata, 'date');
-
 		const vdate = [];
 		const vm = [];
 		const vfm = [];
+		const vtotal = [];
+		
+		var x1 = 0;
+		var x2 = 0;
+		var x3 = 0;
+		var x4 = 0;
+		var x5 = 0;
+		var x6 = 0;
+		var x7 = 0;
+		var x8 = 0;
+		var x9 = 0;
+		var x10 = 0;
+		var x11 = 0;
+		var x12 = 0;
+		var x13 = 0;
+		var x14 = 0;
+		var x15 = 0;
+		var x16 = 0;
+		var x17 = 0;
+		Object.keys(viousdata).forEach(id => {			 
+			 	 
+			 const x = viousdata[id].age;
+			 switch (true) {
+			 	case (x < 5):
+			 		x1++;
+			 		break;
+			 	case (x < 10):
+			 		x2++;
+			 		break;
+			 	case (x < 15):
+			 		x3++;
+			 		break;
+				case (x < 20):
+			 		x4++;
+			 		break;
+				case (x < 25):
+			 		x5++;
+			 		break;
+			 	case (x < 30):
+			 		x6++;
+			 		break;
+			 	case (x < 35):
+			 		x7++;
+			 		break;
+				case (x < 40):
+			 		x8++;
+			 		break;
+				case (x < 45):
+			 		x9++;
+			 		break;
+			 	case (x < 50):
+			 		x10++;
+			 		break;
+				case (x < 55):
+			 		x11++;
+			 		break;
+				case (x < 60):
+			 		x12++;
+			 		break;
+			 	case (x < 65):
+			 		x13++;
+			 		break;
+			 	case (x < 70):
+			 		x14++;
+			 		break;
+				case (x < 75):
+			 		x15++;
+			 		break;
+				case (x < 80):
+			 		x16++;
+			 		break;
+			 	case (x < 85):
+			 		x17++;
+			 		break;
+			 	default:
+			 		x17++;
+			 		break;
+			 }
+           });
+		const vage = [x1,x2,x3,x4,x5,x6,x7,x8,x9,x10,x11,x12,x13,x14,x15,x16,x17];
 		
 		Object.keys(mm).forEach(id => {
              
 			 vdate.push(id.toString());
-			 
+			 vtotal.push (mm[id].length);
 			 var mmsub = groupBy(mm[id], 'gender');
 			 if (typeof mmsub.male !== "undefined" && typeof mmsub.female !== "undefined") {			 
 					vm.push(mmsub.male.length);
@@ -240,19 +358,71 @@ export default {
 					vm.push(0);
 					vfm.push(mmsub.female.length);
 				}
-			 
            });
-
-		this.datacollection = {
+		
+		this.totaldatacollection = {
+          labels: vdate,
+          datasets: [
+            {
+              label: 'Daily New COVID-19 Cases',
+              //backgroundColor: '#CCFFFF',
+			  backgroundColor: "transparent",
+		      borderColor: "rgba(1, 116, 188, 0.50)",
+              pointBackgroundColor: "rgba(1, 116, 188, 0.50)",
+              data: vtotal
+            }
+          ]
+        };
+		
+		this.agedatacollection = {
+          labels: [
+          "0 to 4",
+          "5 to 9",
+          "10 to 14",
+          "15 to 19",
+          "20 to 24",
+          "25 to 29",
+          "30 to 34",
+          "35 to 39",
+          "40 to 44",
+          "45 to 49",
+          "50 to 54",
+          "55 to 59",
+		  "60 to 64",
+          "65 to 69",
+          "70 to 74",
+          "75 to 79",
+		  "80 to 84",
+          "85 and over"
+        ],
+          datasets: [
+            {
+              label: 'Age Group',
+              //backgroundColor: '#CCFFFF',
+			  backgroundColor: "#f87979",
+		      data: vage
+            }
+          ]
+        };
+		
+		this.genderdatacollection = {
           labels: vdate,
           datasets: [
             {
               label: 'Male',
-              backgroundColor: '#CCFFFF',
+              //backgroundColor: '#CCFFFF',
+			  backgroundColor: "transparent",
+			  borderColor: "#05CBE1",
+			  pointBackgroundColor: "#05CBE1",
+			  borderWidth: 1,
               data: vm
             }, {
               label: 'Female',
-              backgroundColor: '#FF9999',
+              //backgroundColor: '#FF9999',
+			  backgroundColor: "transparent",
+			  borderColor: "#FC2525",
+			  pointBackgroundColor: "#FC2525",
+			  borderWidth: 1,
               data: vfm
             }
           ]
@@ -265,7 +435,7 @@ export default {
 
 <style>
   .small {
-    max-width: 400px;
+    max-width: 100%;
     margin:  10px auto;
-  }
+  };
 </style>
