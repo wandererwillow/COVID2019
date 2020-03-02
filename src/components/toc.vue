@@ -70,7 +70,7 @@
 			</div>				
 			<div class="legend">
 				<h2 class="description">
-					<span class="metrictype">Singaproe Resident Population, 2016</span>
+					<span class="metrictype">Singapore Resident Population, 2016</span>
 				</h2>
 			
 				<svg  v-if="sharedState.breaks" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" viewBox="0 0 248.4 39.2" id="maplegend" role="img" aria-labelledby="svgTitle">
