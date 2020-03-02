@@ -2,7 +2,7 @@
     <div id="toc" v-if="sharedState.metric.config" class="top left">	
 			<div>
 				<BaseAccordian>
-					<template v-slot:title>1. COVID 2019 in Singaproe</template>				
+					<template v-slot:title>1. COVID 2019 in Singapore</template>				
 					<template v-slot:content>
 						<div>
 							<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing"> -->
@@ -31,7 +31,7 @@
 									</span> 
 								</div> -->
 								<!-- <div class="metricbox">
-									<span class="metrictype">Singaproe Resident Population, 2016</span>
+									<span class="metrictype">Singapore Resident Population, 2016</span>
 									<span class="metricvalue">{{ privateState.area }}</span>
 									<span v-if="sharedState.metric.config.label" class="metriclabel">{{ sharedState.metric.config.label.toLowerCase() }}</span>
 									<span v-if="sharedState.metric.config.raw_label" class="metric-raw">
