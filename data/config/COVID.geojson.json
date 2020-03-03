@@ -2968,6 +2968,62 @@
     "source of info":"https://www.moh.gov.sg/news-highlights/details/two-more-cases-discharged-four-new-cases-of-covid-19-infection-confirmed",
     "places visited":""
     }
+  },
+   {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8530447,1.3506856 ]
+    },
+    "properties": {
+    "grouping factor":"related",
+    "group":"Q",
+    "case_num":107,
+    "age":68,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Bishan Street 13",
+    "date arriving":"",
+    "date with symptoms":"2/16/2020",
+    "date 1st vist to hospital":"2/20/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"3/1/2020",
+    "hospital confirmed":"Tan Tock Seng Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"linked to Case 94",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed-2Mar",
+    "places visited":"[Feb 11 - 14] Jakarta, Indonesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7561672,1.3425259 ]
+    },
+    "properties": {
+    "grouping factor":"linked to Wizlearn Technologies Pte Ltd",
+    "group":"P",
+    "case_num":108,
+    "age":34,
+    "gender":"female",
+    "citizenship":"Filipino",
+    "stayed at":"Bukit Batok Street 24",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"3/9/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a foreign domestic worker employed by Case 101, works in the same household as Case 102",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/four-more-cases-discharged-two-new-cases-of-covid-19-infection-confirmed-2Mar",
+    "places visited":""
+    }
   }
 ]
 }

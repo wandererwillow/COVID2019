@@ -1,5 +1,12 @@
 # COVID 2019 in Singapore
 
+## Online Demo
+
+``` bash
+
+http://yuezhongliu.com/COVID2019/dist/
+```
+
 ## Setup
 
 ``` bash
