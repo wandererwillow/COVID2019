@@ -3864,6 +3864,342 @@
     "source of info":"https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-eight-more-cases-of-covid-19-infection-confirmed",
     "places visited":""
     }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6934442,1.3471853 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":139,
+    "age":71,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 81",
+    "date arriving":"",
+    "date with symptoms":"03/03/2020",
+    "date 1st vist to hospital":"03/05/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"03/07/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a family member of Cases 140 and 142",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6934442,1.3471853 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":140,
+    "age":62,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 81",
+    "date arriving":"",
+    "date with symptoms":"2/28/2020",
+    "date 1st vist to hospital":"2/29/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"03/07/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"Landom Distributions Pte Ltd (31 Jurong Port Road)",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.7039102,1.3408257 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":141,
+    "age":69,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 64",
+    "date arriving":"",
+    "date with symptoms":"03/01/2020",
+    "date 1st vist to hospital":"03/03/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"03/07/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"Nanyang Technological University (NTU) Innovation Centre (71 Nanyang Drive)",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6934442,1.3471853 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":142,
+    "age":26,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 81",
+    "date arriving":"",
+    "date with symptoms":"03/05/2020",
+    "date 1st vist to hospital":"03/06/2020",
+    "hospital 1st visited":"Ng Teng Fong General Hospital",
+    "date":"03/07/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"First Page Digital Singapore (144 Robinson Road)",
+    "note":"a family member of Cases 139 and 140",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"The Aperia Mall (12 Kallang Avenue)"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8192428,1.3018282 ]
+    },
+    "properties": {
+    "grouping factor":"family member",
+    "group":"S",
+    "case_num":143,
+    "age":42,
+    "gender":"male",
+    "citizenship":"PR",
+    "stayed at":"Tanglin Road",
+    "date arriving":"",
+    "date with symptoms":"03/05/2020",
+    "date 1st vist to hospital":"03/06/2020",
+    "hospital 1st visited":"National University Hospital",
+    "date":"03/07/2020",
+    "hospital confirmed":"National University Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a family member of Case 132",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"[Mar 4-6] Thailand"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.6992243,1.349355 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":144,
+    "age":58,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"Jurong West Street 74",
+    "date arriving":"",
+    "date with symptoms":"03/03/2020",
+    "date 1st vist to hospital":"03/03/2020",
+    "hospital 1st visited":"GP clinic",
+    "date":"03/07/2020",
+    "hospital confirmed":"Ng Teng Fong General Hospital",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"a hairdresser at her home at Jurong West Street 74",
+    "note":"a contact of Case 140",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":145,
+    "age":67,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a contact of Cases 107 and 134",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":146,
+    "age":64,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a contact of Case 134",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"(source of infection unknown)",
+    "group":"Z",
+    "case_num":147,
+    "age":64,
+    "gender":"male",
+    "citizenship":"Indonesian",
+    "stayed at":"(location unknown)",
+    "date arriving":"03/07/2020",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":148,
+    "age":67,
+    "gender":"female",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a contact of Case 107",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":"[Feb 11-14] Indonesia"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":149,
+    "age":62,
+    "gender":"male",
+    "citizenship":"citizen",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 103.8798925,1.2528123 ]
+    },
+    "properties": {
+    "grouping factor":"linked to a private dinner function at SAFRA Jurong on 15 February",
+    "group":"Q",
+    "case_num":150,
+    "age":53,
+    "gender":"female",
+    "citizenship":"PR",
+    "stayed at":"(location unknown)",
+    "date arriving":"",
+    "date with symptoms":"",
+    "date 1st vist to hospital":"",
+    "hospital 1st visited":"",
+    "date":"03/08/2020",
+    "hospital confirmed":"National Centre for Infectious Diseases (NCID)",
+    "date discharged":"",
+    "occupation":"",
+    "place of work":"",
+    "note":"a contact of Cases 115 and 134",
+    "source of info":"https://www.moh.gov.sg/news-highlights/details/twelve-new-cases-of-covid-19-infection-confirmed",
+    "places visited":""
+    }
   }
 ]
 }
