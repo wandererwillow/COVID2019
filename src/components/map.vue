@@ -249,6 +249,18 @@ export default {
 		}
       });
 	  
+	  map.addLayer({
+          id: 'markers-fill-extrude',
+          type: 'fill-extrusion',
+          source: 'markers',
+          //'filter': ['!=', 'choropleth', 'null'],
+          paint: {
+            'fill-extrusion-opacity': 0.7
+          }
+        },
+        'markers'
+      );
+	  
 	  	map.setPitch(30)
 		map.setLayoutProperty('neighborhoods', 'visibility', 'none');
         map.moveLayer('neighborhoods-fill-extrude');

@@ -5236,6 +5236,628 @@
     "source of info":"https://www.moh.gov.sg/news-highlights/details/nine-new-cases-of-covid-19-infection-confirmed",
     "places visited":"[Feb 28 - Mar 2] Malaysia"
     }
-  }
+  },
+  {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "188",
+        "age": "53",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "Yishun Street 51",
+        "latitude": "1.4163582",
+        "longitude": "103.8434336",
+        "date with symptoms": "03/07/2020",
+        "date 1st vist to hospital": "03/07/2020",
+        "hospital 1st visited": "GP clinic",
+        "date": "03/12/2020",
+        "hospital confirmed": "Khoo Teck Puat Hospital (KTPH)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 23 - Mar 1] Thailand. Northpoint City (930 Yishun Avenue 2) and 743 Yishun Avenue 5"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843434,
+          1.416358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "189",
+        "age": "36",
+        "gender": "male",
+        "citizenship": "Indian",
+        "stayed at": "St George?s Road",
+        "latitude": "1.323141",
+        "longitude": "103.862376",
+        "date with symptoms": "03/11/2020",
+        "date 1st vist to hospital": "03/12/2020",
+        "hospital 1st visited": "GP clinic",
+        "date": "03/12/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "place of work": "Sumitomo Mitsui Banking Corporation (3 Temasek Ave)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 21 - Mar 1] India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.862376,
+          1.323141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "related",
+        "group": "V",
+        "case_num": "190",
+        "age": "53",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date with symptoms": "03/10/2020",
+        "date 1st vist to hospital": "03/12/2020",
+        "hospital 1st visited": "National Centre for Infectious Diseases (NCID)",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "He is linked to Case 172",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "191",
+        "age": "24",
+        "gender": "female",
+        "citizenship": "Malaysian",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 24-28] Germany, [Feb 28 - Mar 3] Malaysia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "192",
+        "age": "32",
+        "gender": "male",
+        "citizenship": "American",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date arriving": "03/10/2020",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "arrived in Singapore on 10 March from the US",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "193",
+        "age": "26",
+        "gender": "male",
+        "citizenship": "Malaysian",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "He is linked to Case 194",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Mar 1-3] Germany, [Mar 4-6] Czech Republic, [Mar 7-8] Austria, [Mar 9-10] Hungary."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "194",
+        "age": "24",
+        "gender": "female",
+        "citizenship": "CN",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "She is linked to Case 193",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Mar 1-3] Germany, [Mar 4-6] Czech Republic, [Mar 7-8] Austria, [Mar 9-10] Hungary."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "195",
+        "age": "47",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 4-17] USA, [Feb 17 - Mar 9] Canada"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "linked to a private dinner function at SAFRA Jurong on 15 February",
+        "group": "Q",
+        "case_num": "196",
+        "age": "73",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "She is a contact of Cases 107 and 148",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "link to a mass religious gathering at a mosque in Malaysia",
+        "group": "C",
+        "case_num": "197",
+        "age": "30",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "He had attended a mass religious gathering at a mosque in Malaysia",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 28 - Mar 2] Malaysia."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "198",
+        "age": "61",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "link to a mass religious gathering at a mosque in Malaysia",
+        "group": "C",
+        "case_num": "199",
+        "age": "37",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "He had attended a mass religious gathering at a mosque in Malaysia",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar",
+        "places visited": "[Feb 26 - Mar 2] Malaysia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "linked to the Singapore Air Force business travel to France from Feb 15 to Mar 7",
+        "group": "W",
+        "case_num": "200",
+        "age": "62",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/13/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "She is a family member of Case 165",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/one-more-case-discharged-thirteen-new-cases-of-covid-19-infection-confirmed-13Mar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "link to a mass religious gathering at a mosque in Malaysia",
+        "group": "C",
+        "case_num": "202",
+        "age": "44",
+        "gender": "male",
+        "citizenship": "citizen",
+        "stayed at": "Anchorvale Drive",
+        "latitude": "1.3905059",
+        "longitude": "103.8894",
+        "date with symptoms": "03/03/2020",
+        "date 1st vist to hospital": "03/04/2020",
+        "hospital 1st visited": "GP clinic",
+        "date": "3/13/2020",
+        "hospital confirmed": "Sengkang General Hospital",
+        "note": "He had attended a mass religious gathering at a mosque in Malaysia",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Feb 28 - Mar 3] Malaysia. Masjid Al-Mawaddah (151 Compassvale Bow), Masjid Jamae (Chulia) (218 South Bridge Road) and Masjid Al-Istiqamah (2 Serangoon North Avenue 2)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8894,
+          1.390506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "203",
+        "age": "36",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "Pasir Ris Street 51",
+        "latitude": "1.370847",
+        "longitude": "103.9488659",
+        "date with symptoms": "03/11/2020",
+        "date 1st vist to hospital": "03/12/2020",
+        "hospital 1st visited": "Changi General Hospital",
+        "date": "3/13/2020",
+        "hospital confirmed": "Changi General Hospital",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Mar 6-8] Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.948866,
+          1.370847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "204",
+        "age": "32",
+        "gender": "male",
+        "citizenship": "American",
+        "stayed at": "Tanjong Pagar Road",
+        "latitude": "1.2765791",
+        "longitude": "103.8434428",
+        "date with symptoms": "03/11/2020",
+        "date 1st vist to hospital": "03/12/2020",
+        "hospital 1st visited": "GP clinic",
+        "date": "3/13/2020",
+        "hospital confirmed": "Sengkang General Hospital",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Feb 29 - Mar 8] Japan."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.843443,
+          1.276579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "205",
+        "age": "30",
+        "gender": "female",
+        "citizenship": "Filipino",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Feb 27 - Mar 6] Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "206",
+        "age": "33",
+        "gender": "female",
+        "citizenship": "New Zealand",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Feb 28 - Mar 13] USA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "207",
+        "age": "40",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Mar 6-11] UK"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "208",
+        "age": "26",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "209",
+        "age": "32",
+        "gender": "female",
+        "citizenship": "citizen",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "Sengkang General Hospital",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Mar 2-7] USA"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "210",
+        "age": "56",
+        "gender": "male",
+        "citizenship": "German",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed",
+        "places visited": "[Feb 27 - Mar 3] Germany, [Mar 3-10] Switzerland, [Mar 11-12] Germany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "linked to a private dinner function at SAFRA Jurong on 15 February",
+        "group": "Q",
+        "case_num": "211",
+        "age": "35",
+        "gender": "female",
+        "citizenship": "Filipino",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "note": "She is linked to Case 142",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "grouping factor": "(source of infection or link to other cases unknown )",
+        "group": "Z",
+        "case_num": "212",
+        "age": "64",
+        "gender": "male",
+        "citizenship": "Indonesian",
+        "stayed at": "(location unknown)",
+        "latitude": "1.2528123",
+        "longitude": "103.8798925",
+        "date": "3/14/2020",
+        "hospital confirmed": "National Centre for Infectious Diseases (NCID)",
+        "source of info": "https://www.moh.gov.sg/news-highlights/details/eight-more-cases-discharged-twelve-new-cases-of-covid-19-infection-confirmed"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.879892,
+          1.252812
+        ]
+      }
+    }
 ]
 }
