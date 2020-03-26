@@ -6,7 +6,7 @@ This is the data visualization for the 2019 Novel Coronavirus Visual Map operate
 http://yuezhongliu.com/COVID2019/dist/
 
 ## Data Sources:
-``` bash
+
 World Health Organization (WHO): https://www.who.int/
 
 Ministry of Health (MOH) Singapore: https://www.moh.gov.sg/covid-19
@@ -18,7 +18,7 @@ CNA: https://infographics.channelnewsasia.com/covid-19/coronavirus-singapore-clu
 Strait Times: https://www.straitstimes.com/tags/covid-19
 
 Dr Zhangji: https://public.tableau.com/profile/hopez#!/vizhome/SG_COVID-19_cases_v003/01mapofconfirmedcases
-```
+
 
 ## Setup
 
