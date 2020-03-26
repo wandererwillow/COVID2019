@@ -83,6 +83,12 @@
   font-size: 15px;
 }
 
+.descriptiontitle {
+    padding: 3px 20px 2px;
+    font-size: 30px;
+    text-align: left;
+}
+
 .description {
     padding: 3px 10px 2px;
     font-size: 12px;

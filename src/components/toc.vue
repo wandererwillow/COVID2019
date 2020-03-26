@@ -1,20 +1,17 @@
 <template>
     <div id="toc" v-if="sharedState.metric.config" class="top left">	
 			<div>
+				<h2 class="descriptiontitle">
+					<span class="metrictype">TOTAL of COVID-19 Confirmed Case in Singapore: <span style="color:red;font-weight:bold"> {{totalnum}} </span></span>
+				</h2>
 				<BaseAccordian>
-					<template v-slot:title>1. COVID 2019 in Singapore</template>				
+					<template v-slot:title>1. Daily Total New COVID-19 Cases</template>				
 					<template v-slot:content>
 						<div>
 							<!-- <img src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACwAAAAAAQABAAACAkQBADs=" class="background-print-img" alt="white background for printing"> -->
 							<!-- <div class="tocposition">
 								<a href="javascript:void(0)" title="Move Table of Contents" v-on:click="position()"> X <svg class="icon"><use xlink:href="#icon-zoom_out_map"></use></svg></a>				
 							</div> -->
-							<h2 class="description">
-								<span class="metrictype">DORSCON Level : <span style="color:orange;font-weight:bold">Orange</span></span>
-							</h2>
-							<h2 class="description">
-								<span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold"> {{totalnum}} </span></span>
-							</h2>
 							<div class="small">
 								<line-chart :chart-data="totaldatacollection"/>
 								<!-- <button @click="fillData()">Randomize</button> -->
