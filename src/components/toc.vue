@@ -13,7 +13,7 @@
 								<span class="metrictype">DORSCON Level : <span style="color:orange;font-weight:bold">Orange</span></span>
 							</h2>
 							<h2 class="description">
-								<span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold">{{ sharedState.metric.config.length }}</span></span>
+								<span class="metrictype">Confirmed Case TOTAL: <span style="color:red;font-weight:bold"> {{totalnum}} </span></span>
 							</h2>
 							<div class="small">
 								<line-chart :chart-data="totaldatacollection"/>
@@ -67,7 +67,19 @@
 						</div>
 					</template>
 				</BaseAccordian>
-			</div>				
+			</div>
+			<div>
+				<BaseAccordian>
+					<template v-slot:title>4. Epidemiology - Case Type</template>				
+					<template v-slot:content>
+							<div>
+							<div class="small">
+								<line-chart :chart-data="typedatacollection"/>
+							</div>
+						</div>
+					</template>
+				</BaseAccordian>
+			</div>
 			<div class="legend">
 				<h2 class="description">
 					<span class="metrictype">Singapore Resident Population, 2016</span>
@@ -123,7 +135,7 @@ import {
 
 import LineChart from '../js/LineChart.js';
 import BarChart from '../js/BarChart.js';
-import virousdata from '../../data/config/COVID.json';
+import virousdata from '../../data/config/analysis/covid.json';
 import BaseAccordian from "@/components/BaseAccordion";
 
 export default {
@@ -138,7 +150,9 @@ export default {
         totaldatacollection: null,
 		agedatacollection: null,
 		genderdatacollection: null,
+		typedatacollection: null,
 		accordions: null,
+		totalnum: null,
       }
     },
 	mounted () {
@@ -257,11 +271,15 @@ export default {
 		
 		};
 
-		var mm = groupBy(viousdata, 'date');
+		var mm = groupBy(viousdata, 'date_reported');
 		const vdate = [];
 		const vm = [];
 		const vfm = [];
 		const vtotal = [];
+		
+		const vtdate = [];
+		const vlocal = [];
+		const vout = [];
 		
 		var x1 = 0;
 		var x2 = 0;
@@ -344,22 +362,40 @@ export default {
 		
 		Object.keys(mm).forEach(id => {
              
-			 vdate.push(id.toString());
+			 vdate.push(new Date(Math.round(id)).getDate() + '/' + (new Date(Math.round(id)).getMonth()+1)+'/'+ new Date(Math.round(id)).getFullYear());
 			 vtotal.push (mm[id].length);
 			 var mmsub = groupBy(mm[id], 'gender');
-			 if (typeof mmsub.male !== "undefined" && typeof mmsub.female !== "undefined") {			 
-					vm.push(mmsub.male.length);
-					vfm.push(mmsub.female.length);
+			 if (typeof mmsub.Male !== "undefined" && typeof mmsub.Female !== "undefined") {			 
+					vm.push(mmsub.Male.length);
+					vfm.push(mmsub.Female.length);
 		
-				} else if (typeof mmsub.male !== "undefined" && typeof mmsub.female == "undefined" ) {
-					vm.push(mmsub.male.length);
+				} else if (typeof mmsub.Male !== "undefined" && typeof mmsub.Female == "undefined" ) {
+					vm.push(mmsub.Male.length);
 					vfm.push(0);
-				} else if (typeof mmsub.male == "undefined" && typeof mmsub.female !== "undefined" ) {
+				} else if (typeof mmsub.Male == "undefined" && typeof mmsub.Female !== "undefined" ) {
 					vm.push(0);
-					vfm.push(mmsub.female.length);
+					vfm.push(mmsub.Female.length);
 				}
            });
 		
+		Object.keys(mm).forEach(id => {
+             
+			 vtdate.push(new Date(Math.round(id)).getDate() + '/' + (new Date(Math.round(id)).getMonth()+1)+'/'+ new Date(Math.round(id)).getFullYear());
+			 vtotal.push (mm[id].length);
+			 var mmsub = groupBy(mm[id], 'type');
+			 if (typeof mmsub.imported !== "undefined" && typeof mmsub["local transmission"] !== "undefined") {			 
+					vlocal.push(mmsub.imported.length);
+					vout.push(mmsub["local transmission"].length);
+		
+				} else if (typeof mmsub.imported !== "undefined" && typeof mmsub["local transmission"] == "undefined" ) {
+					vlocal.push(mmsub.imported.length);
+					vout.push(0);
+				} else if (typeof mmsub.imported == "undefined" && typeof mmsub["local transmission"] !== "undefined" ) {
+					vlocal.push(0);
+					vout.push(mmsub["local transmission"].length);
+				}
+           });
+		   
 		this.totaldatacollection = {
           labels: vdate,
           datasets: [
@@ -427,6 +463,30 @@ export default {
             }
           ]
         }
+		
+		this.typedatacollection = {
+          labels: vtdate,
+          datasets: [
+            {
+              label: 'Imported',
+              backgroundColor: '#CCFFFF',
+			  //backgroundColor: "transparent",
+			  borderColor: "#05CBE1",
+			  pointBackgroundColor: "#05CBE1",
+			  borderWidth: 1,
+              data: vlocal
+            }, {
+              label: 'Local Transmission',
+              backgroundColor: '#FF9999',
+			  //backgroundColor: "transparent",
+			  borderColor: "#FC2525",
+			  pointBackgroundColor: "#FC2525",
+			  borderWidth: 1,
+              data: vout
+            }
+          ]
+        }
+		this.totalnum = viousdata.length
       }
 		
     }
