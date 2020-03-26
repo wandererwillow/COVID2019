@@ -8,10 +8,15 @@ http://yuezhongliu.com/COVID2019/dist/
 Data Sources:
 
 World Health Organization (WHO): https://www.who.int/
+
 Ministry of Health (MOH) Singapore: https://www.moh.gov.sg/covid-19
+
 Lianhe Zaobao: https://interactive.zaobao.com/2020/novel-coronavirus-cases-in-singapore/?utm_source=zbsg-tagsite&utm_medium=masthead
+
 CNA: https://infographics.channelnewsasia.com/covid-19/coronavirus-singapore-clusters.html
+
 Strait Times: https://www.straitstimes.com/tags/covid-19
+
 Dr Zhangji: https://public.tableau.com/profile/hopez#!/vizhome/SG_COVID-19_cases_v003/01mapofconfirmedcases
 
 ## Setup
