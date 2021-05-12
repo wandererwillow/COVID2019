@@ -16,7 +16,7 @@
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.3",
     "@vue/cli-service": "~4.2.3",
-    "chart.js": "^2.9.3",
+    "chart.js": "^2.9.4",
     "csvtojson": "^2.0.4",
     "marked": "^0.8.0",
     "postcss-import": "^11.1.0",
