@@ -21,7 +21,7 @@
     "marked": "^0.8.0",
     "postcss-import": "^11.1.0",
     "postcss-preset-env": "^5.2.3",
-    "shelljs": "^0.8.2",
+    "shelljs": "^0.8.5",
     "vue-chartjs": "^3.5.0",
     "vue-template-compiler": "^2.6.11"
   },
