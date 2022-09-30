@@ -9,7 +9,7 @@
   },
   "main": "index.js",
   "dependencies": {
-    "d3-scale": "^2.1.0",
+    "d3-scale": "^4.0.2",
     "mapbox-gl": "^0.47.0",
     "vue": "^2.6.11"
   },
